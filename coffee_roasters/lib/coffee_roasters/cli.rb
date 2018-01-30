@@ -19,7 +19,7 @@ class CoffeeRoasters::CLI
       puts "Or type 'exit'."
 
       input = gets.strip.downcase
-      if input.to_i.between?(0, 21)
+      if input.to_i.between?(1, 21)
         list_roasters(input.to_i)
       elsif input == 'exit'
         goodbye
@@ -29,7 +29,7 @@ class CoffeeRoasters::CLI
 
       puts ">>> Which coffee roaster would you like more info on: <<<"
       input = gets.strip.downcase
-      if input.to_i.between?(0, 21)
+      if input.to_i.between?(1, 21)
         roaster_detail(input.to_i-1)
       elsif input == "exit"
         goodbye
