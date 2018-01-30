@@ -30,7 +30,7 @@ class CoffeeRoasters::CLI
 
       puts "Which coffee roaster would you like more info on:"
       input = gets.strip.downcase
-      if input.to_i != 0
+      if input.to_i != 0 && input.to_i <= 21
         roaster_detail(input.to_i-1)
       elsif input == "exit"
         goodbye
