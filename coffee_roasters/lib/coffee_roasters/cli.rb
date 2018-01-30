@@ -13,7 +13,7 @@ class CoffeeRoasters::CLI
   def menu
     input = nil
     while input != 'exit'
-      puts "=========================================================="
+      # puts "=========================================================="
       puts ""
       puts "Enter the range of the coffee roaster you'd like info on: <- - - - -"
       puts "1-5, 6-10, 11-15, 16-21"
@@ -63,6 +63,7 @@ class CoffeeRoasters::CLI
     puts ""
     puts "URL - #{the_roaster.url}"
     puts ""
+    puts "=========================================================="
   end
 
   def goodbye
