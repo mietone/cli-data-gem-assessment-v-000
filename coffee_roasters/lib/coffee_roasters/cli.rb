@@ -47,6 +47,7 @@ class CoffeeRoasters::CLI
       puts "#{index}. #{roaster.name} - #{roaster.location}"
       puts "#{roaster.bean}"
       puts ""
+      puts ""
     end
   end
 
