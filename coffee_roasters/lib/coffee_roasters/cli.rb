@@ -4,7 +4,7 @@ class CoffeeRoasters::CLI
 
   def call
     puts ""
-    puts "<<<<<<< Welcome to The 21 Best Coffee Roasters cli gem! >>>>>>>"
+    puts "<<<<<<<<<< Welcome to The 21 Best Coffee Roasters cli gem! >>>>>>>>>"
     CoffeeRoasters::Scraper.new.scrape_roasters
     @roaster = CoffeeRoasters::Roaster.all
     menu
