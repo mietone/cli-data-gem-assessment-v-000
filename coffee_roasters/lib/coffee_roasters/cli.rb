@@ -15,7 +15,7 @@ class CoffeeRoasters::CLI
     while input != 'exit'
       puts "=========================================================="
       puts ""
-      puts "Enter the range of the coffee roaster you'd like info on: <<<<<<<<<<<<"
+      puts "Enter the range of the coffee roaster you'd like info on: <- - - - -"
       puts "1-5, 6-10, 11-15, 16-21"
       puts "Or type 'exit'."
 
