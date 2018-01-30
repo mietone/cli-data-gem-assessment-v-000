@@ -41,7 +41,7 @@ class CoffeeRoasters::CLI
 
   def list_roasters(from_number)
     puts ""
-    puts "-------------< Coffee Roasters #{from_number} - #{from_number+5} >-------------"
+    puts "-------------< Coffee Roasters #{from_number} - #{from_number+4} >-------------"
     puts ""
     @roaster[from_number-1, 5].each.with_index(from_number) do |roaster, index|
       puts "#{index}. #{roaster.name} - #{roaster.location}"
